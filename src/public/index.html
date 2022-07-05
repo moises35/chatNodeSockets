@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sockets</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Mensajeria con Node.js y utilizando sockets</h1>
+    <div id="new_user"></div>
+    <div id="chat">
+        <input type="text" id="username" placeholder="Ingrese su nombre">
+        <div id="all_message"></div>
+        <div id="writting"></div>
+        <textarea id="write_message" placeholder="Ingrese su mensaje"></textarea>
+        <button id="enviar">Enviar</button>
+        <button id="deleteAll">Eliminar chat</button>
+    </div>
+    <div id="user">
+        Numero de usuarios conectados: <span id="num_users">0</span>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

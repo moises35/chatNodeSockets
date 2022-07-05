@@ -1,0 +1,80 @@
+#chat {
+    margin: 0 auto;
+    width: 300px;
+}
+
+#write_message {
+    width: 275px;
+    padding: 20px;
+    display: inline;
+}
+
+#all_message {
+    height: 300px;
+    overflow: auto;
+}
+
+.message {
+    background-color: #1ca2d6;
+    color: #fff;
+    padding: 5px;
+    margin-top: 12px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.message_mio {
+    background-color: #d69b1c;
+    color: #fff;
+    padding: 5px;
+    margin-top: 12px;
+    display: inline-block;
+    margin-left: 75px;
+    border-radius: 10px;
+}
+
+#enviar {
+    background-color: #1cd625;
+    color: #fff;
+    padding: 10px 8px;
+    margin-top: 12px;
+    display: block;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: none;
+    margin-bottom: 22px;
+}
+
+#enviar:hover {
+    cursor: pointer;
+}
+
+
+#deleteAll {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 8px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    display: block;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: none;
+}
+
+#deleteAll {
+    cursor: pointer;
+}
+
+
+#user {
+    position: absolute;
+    top: 15%;
+    padding: 10px;
+    margin-left: 65%;
+    font-size: 20px;
+    color: green;
+}
